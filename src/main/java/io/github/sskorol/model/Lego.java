@@ -12,7 +12,7 @@ import lombok.EqualsAndHashCode;
 @Source(source = "lego.json")
 public class Lego extends Product {
 
-    private String ageRange;
+     private String ageRange;
 
     public Lego(final String name, final String category) {
         super(name, category);
